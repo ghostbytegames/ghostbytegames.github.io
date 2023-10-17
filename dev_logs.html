@@ -4,8 +4,10 @@ title: "Dev Logs"
 ---
 <div class="container p-3">
 	{% for post in site.posts %}
+	{% if post.category == "dev_logs" %}
 	<div class="container">
 	<a href="{{ post.url }}" class="text-decoration-none text-dark"><span class="text-muted">{{ post.date | date: "%-m-%d-%Y" }}</span> {{ post.title }} <span class="text-danger">by {{ post.author }}</span></a>
 	</div>
+	{% endif %}
 	{% endfor %}
 </div>
