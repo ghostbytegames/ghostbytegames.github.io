@@ -1,0 +1,16 @@
+---
+layout: default
+title: "About"
+---
+<div class="container p-3" style="max-width: 950px">
+  {% for staff_member in site.staff %}
+  <div class="container-sm d-flex align-items-center m-2">
+    <img src="{{ base.url }}/img/{{ staff_member.img }}" alt="{{ staff_member.name }}" style="max-height: 256px"/>
+    <div class="container">
+      <h5 class="bg-danger text-white p-1">{{ staff_member.name }}</h5>
+      <h6 class="bg-dark text-white p-1">{{ staff_member.position }}</h6>
+      <p>{{ staff_member.content | markdownify }}</p>
+    </div>
+  </div>
+  {% endfor %}
+</div>

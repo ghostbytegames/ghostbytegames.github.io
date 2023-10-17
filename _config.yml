@@ -1,0 +1,11 @@
+title: Ghostbyte Games
+author: Nuno Dias
+url: https://ghostbytegames.github.io
+domain: ghostbytegames.github.io
+
+collections:
+  staff:
+    people: true
+  games:
+    output: true
+    layout: game

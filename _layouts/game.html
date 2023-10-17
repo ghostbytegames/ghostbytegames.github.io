@@ -1,0 +1,11 @@
+---
+layout: default
+---
+<div class="container p-3">
+	<h1>{{ page.name }}</h1>
+	<!-- place carousel here -->
+	<small>Release Date: {{ page.release_date}}</small>
+	<div class="container-sm">
+		{{ page.content | markdownify }}
+	</div>
+</div>

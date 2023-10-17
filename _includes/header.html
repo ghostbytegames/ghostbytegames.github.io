@@ -1,0 +1,21 @@
+<header class="p-3 text-bg-dark">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+        <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+          <img
+            src="{{ base.url }}/img/ghostbyte_logo.png"
+            height="64"
+            alt="GhostByte Logo"
+            loading="lazy"
+          />
+	</a>
+
+        <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+		<li><a href="{{ base.url }}/" class="nav-link px-2 {% if include.page == "Home" %} text-secondary"{% else %} text-white"{% endif %}>Home</a></li>
+		<li><a href="{{ base.url }}/about" class="nav-link px-2 {% if include.page == "About" %} text-secondary"{% else %} text-white"{% endif %}>About</a></li>
+	  <li><a href="{{ base.url }}/games" class="nav-link px-2 {% if include.page == "Games" || page.category == "games" %} text-secondary"{% else %} text-white"{% endif %}>Games</a></li>
+	  <li><a href="{{ base.url }}/dev_logs" class="nav-link px-2 {% if include.page == "Dev Logs" || page.category == "dev_logs" %} text-secondary"{% else %} text-white"{% endif %}>Dev Logs</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>

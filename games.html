@@ -1,0 +1,25 @@
+---
+layout: default
+title: "Games"
+permalink: "/games/"
+---
+<div class="container p-3">
+	{% for game in site.games %}
+		<a href="{{ game.url }}">
+		<div class="card mb-3" style="max-width: 540px;">
+  			<div class="row g-0">
+    				<div class="col-md-4">
+					<img src="{{ base.url }}/img/games/{{ game.thumbnail }}" class="img-fluid rounded-start" alt="...">
+    				</div>
+    				<div class="col-md-8">
+      					<div class="card-body">
+						<h5 class="card-title">{{ game.name }}</h5>
+						<p class="card-text">{{ game.summary }}</p>
+						<p class="card-text"><small class="text-muted">{{ game.release_date }}</small></p>
+      					</div>
+				</div>
+			</div>
+		</div>
+		</a>
+	{% endfor %}
+</div>
