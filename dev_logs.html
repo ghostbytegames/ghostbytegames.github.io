@@ -5,12 +5,13 @@ title: "Dev Logs"
 <div class="container p-3">
 	{% for post in site.posts %}
 	{% if post.category == "dev_logs" %}
-	<div class="container m-3 p-2 border border-danger-subtle rounded">
 	<a href="{{ post.url }}" class="text-decoration-none text-dark link-opacity-75-hover">
-		<span class="text-muted">{{ post.date | date: "%-m-%d-%Y" }}</span>
-		<h5>{{ post.title }}</h5>
-		<span class="text-danger">by {{ post.author }}</span></a>
-	</div>
+		<div class="container m-3 p-2 border border-danger-subtle rounded">
+			<span class="text-muted">{{ post.date | date: "%-m-%d-%Y" }}</span>
+			<h5>{{ post.title }}</h5>
+			<span class="text-danger">by {{ post.author }}</span></a>
+		</div>
+	</a>
 	{% endif %}
 	{% endfor %}
 </div>
