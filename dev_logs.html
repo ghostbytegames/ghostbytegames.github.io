@@ -5,7 +5,7 @@ title: "Dev Logs"
 <div class="container p-3">
 	{% for post in site.posts %}
 	{% if post.category == "dev_logs" %}
-	<a href="{{ post.url }}" class="text-decoration-none text-dark link-opacity-75-hover">
+	<a href="{{ post.url }}" class="text-decoration-none text-dark link-opacity-75-hover d-block">
 		<div class="container m-3 p-2 border border-danger-subtle rounded">
 			<span class="text-muted">{{ post.date | date: "%-m-%d-%Y" }}</span>
 			<h5>{{ post.title }}</h5>
