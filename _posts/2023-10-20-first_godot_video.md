@@ -12,4 +12,4 @@ Moreover, instead of skimming through a lot of the content, as other tutorials d
 
 In any case, I hope you'll drop by and give your input. I'll see you there :)
 
-- N.
+&ndash; N.
