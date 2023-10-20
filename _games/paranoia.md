@@ -3,8 +3,8 @@ layout: game
 name: Paranoia
 thumbnail: ...
 summary: "A PS1 style survival horror game"
-release_date: "TBR October 2024"
-category: "games"
+release_date: "Planned to release in October 2024"
+category: games
 ---
 "I bled with nothing to show for it."
 
