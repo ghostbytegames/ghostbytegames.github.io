@@ -9,7 +9,7 @@ title: "Home"
   <div class="container-sm">
 	  {% for post in site.posts%}
 	    {% if post.category == "posts" %}
-	      <div class="container border">
+	      <div class="container border m-2">
 	        <h3>{{ post.title }}</h3>
 		<h5>{{ post.author }} - {{ post.date | date:"%-m-%d-%Y" }}</h5>
 		{{ post.content | markdownify }}
