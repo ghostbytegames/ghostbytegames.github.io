@@ -9,4 +9,4 @@ Co-founder of Ghostbyte Games. Started working on October, 2023. Head of QA & Fe
 
 
 <a class="text-decoration-none text-dark" href="https://www.linkedin.com/in/ana-calamote-5621b2188/"><i class="bi bi-linkedin"></i></a>
-<a class="text-decoration-none text-dark" href="https://twitter.com/futanaax"><i class="bi bi-twitter"></i></a>
+<a class="text-decoration-none text-dark" href="https://instagram.com/futanaaa"><i class="bi bi-instagram"></i></a>
